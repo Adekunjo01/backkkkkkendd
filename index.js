@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bcrypt = require('bcrypt');
-const AdminModel = require('../server/Models/Admin');
+const AdminModel = require('./Models/Admin');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
